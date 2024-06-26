@@ -2,4 +2,60 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+nav a {
+  padding: 10px;
+  background-color: #ccc;
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+#featured-property figure {
+  text-align: center;
+}
+
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  padding: 20px 0;
+}
+
+#details div {
+  width: 25%;
+  text-align: center;
+  background-color: red;
+  margin: 10px;
+  padding: 20px;
 }
